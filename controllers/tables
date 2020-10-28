@@ -1,0 +1,25 @@
+MONGO Database
+
+
+Collections
+  Buyers Collection
+    Alfred Document (name, email, password, cardDetails, cart, wishlist)
+    Rodney Document (name, email, password, cardDetails, cart, wishlist)
+    Deborah Document (name, email, password, cardDetails, cart, wishlist)
+    Amira Document (name, email, password, cardDetails, cart, wishlist)
+
+  Sellers Collection
+    Alfred Document (name, email, password, stores, paymentChannels)
+    Rodney Document (name, email, password, stores, paymentChannels)
+    Deborah Document (name, email, password, stores, paymentChannels)
+    Amira Document (name, email, password, stores, paymentChannels)
+
+  Stores Collection
+    Topman Shoes (owner: Buyer, Products, storeId, balance)
+    Melcom (owner: Buyer, Products, storeId, balance)
+    Accra Mall (owner: Buyer, Products, storeId, balance)
+
+  Products Collection  Product.find ()
+    bread Document
+    AMG Document 
+    Mattress Document 

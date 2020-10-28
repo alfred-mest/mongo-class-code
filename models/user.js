@@ -17,7 +17,13 @@ const userSchema = new mongoose.Schema({
   phoneNumber: {
     required: true,
     type: String
-  }
+  },
+  notes: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Note'
+    }
+  ]
 })
 
 userSchema.set('toJSON', {
